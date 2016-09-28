@@ -19,11 +19,9 @@ function main(){
 	// 5. inserez cet élément dans l'élément ayant l'id holder
 	// 
 	// Conseils : avancez étape par étape, console.log et debugger autant que nécessaires !
-	$('button').on('click', function(){
-		var selected = $(this).data('animal');
-		console.log(selected)
-		$('#holder').html('<img src="' + species[selected] + '">')
-	});
+	
+	
+	 
 }
 
 $(document).ready(function(){
