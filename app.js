@@ -1,9 +1,7 @@
-console.log("You're code starts here !");
-
 var species = {
-	cat    : "http://placekitten.com/300/300",
-	bear   : "https://placebear.com/300/300",
-	fish   : "http://www.fillmurray.com/300/300"
+	cat    : "cat.jpg",
+	bear   : "bear.jpg",
+	fish   : "fish.jpg"
 };
 
 function main(){
