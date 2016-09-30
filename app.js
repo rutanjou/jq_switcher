@@ -5,10 +5,14 @@ var species = {
 };
 
 function main(){
-	/* 
-	tout votre code doit se trouver dans cette fonction,
-	vous pouvez biensur créer d'autres fonctions si nécessaire
-	*/
+	$("button").click(function(){
+	  var animal=$(this).data("animal");
+	  console.log(animal);
+	  $("img").attr("src","img/"+species[animal]);
+    });
+      console.log(species.cat); 
+}
+	
 
 	// 1. placez un listener sur le click des éléments <button>
 	// 2. dans le callback récupérez le data attribute animal
@@ -20,8 +24,8 @@ function main(){
 	
 	
 	 
-}
 
-$(document).ready(function(){
+
+$().ready(function(){
 	main();
 });
